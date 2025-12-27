@@ -34,14 +34,28 @@ Most people click "Accept" without reading. Termslify aims to bridge that gap by
 - **Debugging:** Solved a critical Node.js "clean exit" bug by stabilizing the event loop and migrating the service to Port 3001.
 - **Proof of Concept:** Successfully summarized Instagram's Terms of Service with a 100% success rate.
 
+### Day 3: The "Enterprise Dashboard" & Logic Parser
+
+- **UI Overhaul:** Migrated from a basic text box to a professional-grade dashboard using Tailwind CSS v4.
+
+- **UVisual Risk Gauge:** Developed a dynamic 0-100 scoring system that color-codes the UI (Green/Amber/Red) based on legal severity.
+
+- **UIntelligent Response Parsing:** Built a frontend logic engine to split raw AI strings into distinct sections: Executive Summary and Critical Risk Cards.
+
+- **USaaS Branding:** Implemented a fixed-sidebar layout with a "Live Status" pulse indicator and professional user profile components.
+
+- **URefined AI Prompting:** Optimized the System Message to ensure GPT-4o-mini returns data in a strict, parsable format (SCORE: | SUMMARY: | RISKS:).
+
+- **UEnvironment Stability:** Standardized the server to ES Modules (ESM) to resolve module resolution conflicts and pathing errors.
+
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Axios, CSS3
-- **Backend:** Node.js, Express.js
-- **Intelligence:** OpenAI API
-- **Environment:** Dotenv, Nodemon
+- **Frontend:** React.js, Axios, Tailwind CSS v4, Lucide-React
+- **Backend:** Node.js(ESM),, Express.js
+- **Intelligence:** OpenAI API (GPT-4o-mini)
+- **Environment:** Dotenv, Nodemon, Axios
 
 ---
 
