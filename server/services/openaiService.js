@@ -1,3 +1,10 @@
+import OpenAI from 'openai';
+import 'dotenv/config';
+
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
 export async function generateSummary(text) {
   const response = await openai.chat.completions.create({
     model: 'gpt-4o-mini',
